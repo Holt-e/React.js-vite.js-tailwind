@@ -6,8 +6,7 @@ export function HelloWorld() {
   return (
     <div className="flex flex-col">
       <button
-        className="m-2 p-2 bg-green-600+
-        "
+        className="m-2 p-2 bg-green-600"
         onClick={() => {
           setCount(count + 1);
         }}
